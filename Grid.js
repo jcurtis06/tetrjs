@@ -38,14 +38,7 @@ class Grid {
       gridElement.appendChild(rowDiv);
     }
 
-    let test = new Shape(
-      [
-        [0, 1, 0],
-        [1, 1, 1],
-      ],
-      5,
-      5
-    );
+    let test = new Shape(Shapes.Z, 5, 5);
 
     test.place();
     test.startGravity();
