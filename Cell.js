@@ -23,4 +23,8 @@ class Cell {
 
     row.appendChild(this.div);
   }
+
+  reset() {
+    this.div.style.backgroundColor = Colors.DEFAULT;
+  }
 }

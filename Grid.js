@@ -48,6 +48,7 @@ class Grid {
     );
 
     test.place();
+    test.startGravity();
   }
 
   regenerate() {
