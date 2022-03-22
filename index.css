@@ -1,0 +1,7 @@
+.cell {
+  background-color: black;
+  border: 1px solid pink;
+
+  width: 25px;
+  height: 25px;
+}
