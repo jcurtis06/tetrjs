@@ -92,18 +92,6 @@ function initKeyEventListener() {
 }
 
 function initButtons() {
-  if (
-    /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
-      navigator.userAgent
-    )
-  ) {
-    console.log("ur on a phone lul");
-
-    document.getElementById("buttons-container").style.display = "none";
-
-    return;
-  }
-
   document.getElementById("move-left-btn").onclick = () => {
     moveLeft();
   };
