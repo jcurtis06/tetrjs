@@ -1,6 +1,11 @@
 let borders = document.getElementsByClassName("tile");
 
+let dubsteppin = false;
+
 function startDubsteppin() {
+  if (dubsteppin) return;
+  dubsteppin = true;
+  document.getElementById("background-music").play();
   setInterval(() => {
     for (let i = 0; i < borders.length; i++) {
       borders[i].style.borderColor = randomRgb();

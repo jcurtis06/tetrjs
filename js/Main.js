@@ -177,8 +177,6 @@ function setPortraitModeIfPossible() {
 }
 
 export function main() {
-  document.getElementById("background-music").play();
-  startDubsteppin();
   setPortraitModeIfPossible();
   setInterval(gameLoop, 416.67);
   initKeyEventListener();
