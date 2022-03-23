@@ -48,7 +48,6 @@ ul {
   height: 30px;
   width: 30px;
   border: 1px solid rgb(20, 20, 20);
-  animation: beat 416ms infinite none;
 }
 
 #buttons-container {
@@ -70,6 +69,6 @@ ul {
 
 @keyframes beat {
   0% {
-    border-color: rebeccapurple;
+    border-color: red;
   }
 }
