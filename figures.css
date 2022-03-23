@@ -1,0 +1,27 @@
+.figure-pyramid {
+  background: rgb(2, 143, 224);
+}
+
+.figure-square {
+  background: rgb(23, 255, 15);
+}
+
+.figure-line {
+  background: yellow;
+}
+
+.figure-s {
+  background: blue;
+}
+
+.figure-z {
+  background: red;
+}
+
+.figure-j {
+  background: blueviolet;
+}
+
+.figure-l {
+  background: orange;
+}

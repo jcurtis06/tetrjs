@@ -2,20 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <title>Tetrjs by Jonathan Curtis</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tetris</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="figures.css" />
   </head>
-  <body onload="start(15, 10)">
-    <h1>Tetris</h1>
-    <div id="grid"></div>
-  </body>
 
-  <script src="Colors.js"></script>
-  <script src="Grid.js"></script>
-  <script src="Shape.js"></script>
-  <script src="Shapes.js"></script>
-  <script src="Cell.js"></script>
-  <script src="GameManager.js"></script>
+  <body>
+    <div class="flex-container">
+      <span id="score">0</span>
+      <div id="game-container">
+        <div>
+          <div id="board"></div>
+        </div>
+      </div>
+      <div id="buttons-container">
+        <button class="button" id="move-left-btn">⬅️</button>
+        <button class="button" id="move-right-btn">➡️</button>
+        <button class="button" id="rotate-btn">🔄</button>
+        <button class="button" id="slam-btn">⬇️</button>
+      </div>
+    </div>
+    <script type="module">
+      import { main } from "./js/main.js";
+
+      main();
+    </script>
+  </body>
 </html>
