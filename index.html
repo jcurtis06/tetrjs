@@ -2,14 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, user-scalable=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Tetris</title>
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/figures.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -21,10 +22,18 @@
         </div>
       </div>
       <div id="buttons-container">
-        <button class="button" id="move-left-btn">⬅️</button>
-        <button class="button" id="move-right-btn">➡️</button>
-        <button class="button" id="rotate-btn">🔄</button>
-        <button class="button" id="slam-btn">⬇️</button>
+        <button class="button" id="move-left-btn">
+          <span class="material-icons"> arrow_back_ios </span>
+        </button>
+        <button class="button" id="move-right-btn">
+          <span class="material-icons"> arrow_forward_ios </span>
+        </button>
+        <button class="button" id="rotate-btn">
+          <span class="material-icons"> loop </span>
+        </button>
+        <button class="button" id="slam-btn">
+          <span class="material-icons">keyboard_double_arrow_down</span>
+        </button>
       </div>
     </div>
     <script type="module">
