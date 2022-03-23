@@ -11,6 +11,7 @@
 
 body {
   background: rgb(20, 20, 20);
+  animation: beat 400ms infinite;
 }
 
 ul {
@@ -47,6 +48,7 @@ ul {
   height: 30px;
   width: 30px;
   border: 1px solid rgb(20, 20, 20);
+  animation: beat 416ms infinite none;
 }
 
 #buttons-container {
@@ -64,4 +66,10 @@ ul {
   border-radius: 2px;
   background-color: rgb(20, 20, 20);
   font-size: 2rem;
+}
+
+@keyframes beat {
+  0% {
+    border-color: rebeccapurple;
+  }
 }

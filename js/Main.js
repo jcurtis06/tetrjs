@@ -177,8 +177,9 @@ function setPortraitModeIfPossible() {
 }
 
 export function main() {
+  document.getElementById("background-music").play();
   setPortraitModeIfPossible();
-  setInterval(gameLoop, 500);
+  setInterval(gameLoop, 416);
   initKeyEventListener();
   initButtons();
   restartGame();
