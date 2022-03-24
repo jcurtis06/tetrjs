@@ -1,4 +1,4 @@
-# tetrjs (dubstep version) 🟩
+# tetrjs (dubstep) 🟩
 
 A simple yet stunningly buggy Tetris clone made in Vanilla JS
 
