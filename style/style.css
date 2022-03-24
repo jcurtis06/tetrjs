@@ -11,6 +11,7 @@
 
 body {
   background: rgb(20, 20, 20);
+  touch-action: manipulation;
 }
 
 ul {
