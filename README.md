@@ -2,6 +2,8 @@
 
 A simple yet stunningly buggy Tetris clone made in Vanilla JS
 
+**VIEW THE REACT VERSION HERE: https://github.com/jcurtis06/retris**
+
 ### Features
 - Mobile support 📱
 - *gorgeous* graphics 😍 
